@@ -7,6 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="flex.css">
+    <style>
+    body{
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.container{
+    border:2px solid red;
+    width: 640px;
+    height: 480px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.items{
+    border: 2px solid orange;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    /*Eixo Y*/
+    align-items:flex-end ;
+    /*Eixo X*/
+    justify-content:space-evenly;
+
+}
+.miolo{
+    border:1px solid black;
+    width: 40px;
+    height: 40px;
+}
+    </style>
 </head>
 
 <body>
